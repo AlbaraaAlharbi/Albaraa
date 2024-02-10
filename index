@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عرض تقديمي - يوم التأسيس</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f3f3f3;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #666;
+    }
+    .media-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .media-container img,
+    .media-container iframe {
+      max-width: 80%;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>عرض تقديمي - يوم التأسيس</h1>
+  <p>مرحبًا بكم في عرض تقديمي حول يوم التأسيس!</p>
+  
+  <div class="media-container">
+    <img src="اسم_الصورة.jpg" alt="صورة يوم التأسيس">
+  </div>
+  
+  <div class="media-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/فيديو_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  <p>شكرًا لحضوركم!</p>
+</body>
+</html>
